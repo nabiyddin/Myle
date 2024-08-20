@@ -1,0 +1,33 @@
+:root {
+  --manrope-font: "Manrope";
+  --white-color: #ffffff;
+  --gold-color: #f5c473;
+  --silver-color: #afb5bd;
+  --dark-ink-color: #353a40;
+  --light-black-color: #464a4e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--manrope-font);
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--noto-serif-font);
+}

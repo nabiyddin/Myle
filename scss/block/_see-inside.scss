@@ -1,0 +1,32 @@
+#see-inside {
+  padding: 120px 165px;
+  background: #faf5f5;
+
+  h1 {
+    color: #353a40;
+    text-align: center;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 800;
+  }
+
+  .img {
+    margin-top: 39px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #see-inside {
+    padding: 80px 20px;
+
+    h1 {
+      font-size: 24px;
+      line-height: 33px;
+    }
+
+    .img {
+      margin-top: 24px;
+    }
+  }
+}

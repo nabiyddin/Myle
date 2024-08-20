@@ -1,0 +1,104 @@
+#contacts {
+  padding: 120px 255px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #faf5f5;
+
+  .contacts-image {
+    display: block;
+    width: 100%;
+  }
+
+  .texts-wrapper {
+    h1 {
+      margin-bottom: 40px;
+      color: #353a40;
+      font-size: 40px;
+      line-height: 55px;
+      font-weight: 800;
+    }
+
+    span {
+      color: #3772e1;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 500;
+    }
+
+    p {
+      font-weight: 700;
+      line-height: 32px;
+      color: #353a40;
+    }
+
+    .first {
+      margin: 4px 0 24px 0;
+      font-size: 16px;
+    }
+
+    .second {
+      margin: 8px 0 16px 0;
+      font-size: 24px;
+    }
+
+    .last {
+      font-size: 14px;
+      line-height: 19px;
+      font-weight: 400;
+      opacity: 50%;
+    }
+
+    .btn {
+      margin-top: 24px;
+      padding: 15px 60px;
+      display: flex;
+      gap: 24px;
+      color: #ffffff;
+      background: #3772e1;
+      box-shadow: 0px 2px 0px 0px rgba(44, 91, 180, 1);
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 700;
+      border-radius: 4px;
+      border: none;
+      transition: all 0.5s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #dd3131;
+    }
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  #contacts {
+    padding: 80px 20px;
+    flex-direction: column;
+    gap: 40px;
+
+    .texts-wrapper {
+      text-align: center;
+
+      h1 {
+        font-size: 24px;
+        line-height: 33px;
+        margin-bottom: 24px;
+      }
+
+      .first {
+        margin: 2px 0 16px 0;
+      }
+
+      .second {
+        margin: 2px 0 16px 0;
+      }
+
+      .btn {
+        margin-top: 34px;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+#pricing {
+  padding: 0 165px 120px 165px;
+  background: #faf5f5;
+
+  h1 {
+    color: #353a40;
+    text-align: center;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 800;
+  }
+
+  .cards-wrapper {
+    margin-top: 63px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    .card {
+      padding: 35px 0 46px 0;
+      font-weight: 800;
+      position: relative;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 8px;
+      width: 100%;
+
+      .icon {
+        position: absolute;
+        top: -25px;
+        left: 45%;
+      }
+
+      h2 {
+        color: #3772e1;
+        font-size: 32px;
+        line-height: 44px;
+      }
+
+      h3 {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 22px;
+        color: #353a40;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #pricing {
+    padding: 0 20px 80px 20px;
+
+    h1 {
+      font-size: 24px;
+      line-height: 33px;
+    }
+
+    .cards-wrapper {
+      margin-top: 47px;
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #pricing {
+    padding: 0 20px 80px 20px;
+
+    h1 {
+      font-size: 24px;
+      line-height: 33px;
+    }
+
+    .cards-wrapper {
+      margin-top: 47px;
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+    }
+  }
+}

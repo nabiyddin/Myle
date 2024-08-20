@@ -1,0 +1,153 @@
+#cars {
+  padding: 120px 165px 120px 165px;
+  background: #faf5f5;
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .texts-wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 444px;
+      height: 222px;
+
+      .texts {
+        color: #353a40;
+        h2 {
+          font-size: 32px;
+          line-height: 44px;
+          font-weight: 800;
+        }
+
+        p {
+          margin-top: 24px;
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 400;
+          opacity: 50%;
+        }
+      }
+    }
+  }
+
+  .second {
+    margin: 80px 0 108px 0;
+    height: 510px;
+  }
+
+  .last {
+    margin-top: 108px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  #cars {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .wrapper {
+      flex-direction: column;
+      gap: 24px;
+      .texts-wrapper {
+        flex-direction: column-reverse;
+        gap: 16px;
+        width: 100%;
+
+        .texts {
+          h2 {
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          p {
+            margin-top: 16px;
+            line-height: 17px;
+          }
+        }
+      }
+
+      .car-img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #cars {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .wrapper {
+      flex-direction: column;
+      gap: 24px;
+      .texts-wrapper {
+        flex-direction: column-reverse;
+        gap: 16px;
+        width: 100%;
+
+        .texts {
+          h2 {
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          p {
+            margin-top: 16px;
+            line-height: 17px;
+          }
+        }
+      }
+
+      .car-img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  #cars {
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .wrapper {
+      flex-direction: column;
+      gap: 24px;
+      .texts-wrapper {
+        flex-direction: column-reverse;
+        gap: 16px;
+        width: 100%;
+
+        .texts {
+          h2 {
+            font-size: 24px;
+            line-height: 33px;
+          }
+
+          p {
+            margin-top: 16px;
+            line-height: 17px;
+          }
+        }
+      }
+
+      .car-img {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
